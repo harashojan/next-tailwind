@@ -9,6 +9,7 @@ const customJestConfig = {
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   moduleNameMapper: { "src/(.*)": "<rootDir>/src/$1" }, // Handle module aliases (this will be automatically configured for you soon)
   testEnvironment: "jest-environment-jsdom",
+  reporters: ["default", "jest-html-reporters"],
 };
 
 module.exports = createJestConfig(customJestConfig);

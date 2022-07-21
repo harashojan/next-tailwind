@@ -39,8 +39,8 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.js",
-    "**/*.jsx"
-    // "./.eslintrc.js",
+    "**/*.jsx",
+    "./.eslintrc.js"
     // "./jest.config.ts",
     // "tsconfig.eslint.json"
   ]

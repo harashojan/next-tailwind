@@ -90,4 +90,5 @@ module.exports = {
       extends: ["plugin:testing-library/react"],
     },
   ],
+  ignorePatterns: [".eslintrc.*", "jest.config.*"],
 };
