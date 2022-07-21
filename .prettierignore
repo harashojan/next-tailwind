@@ -3,3 +3,5 @@ node_modules
 yarn.lock
 package-lock.json
 public
+jest_html_reporters.html
+jest-html-reporters-attach

@@ -12,10 +12,4 @@ const Index: CustomNextPage = () => {
 
 Index.getLayout = MainLayout;
 
-// Index.getLayout = (page) => (
-//   <MainLayout>
-//     <RecoilRoot>{page}</RecoilRoot>
-//   </MainLayout>
-// );
-
 export default Index;
