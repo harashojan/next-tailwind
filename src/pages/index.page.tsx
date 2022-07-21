@@ -1,6 +1,4 @@
-import { RecoilRoot } from "recoil";
-
-import { MainLayout } from "@/components/layouts/MainLayout";
+import { MainLayout } from "@/components/layouts";
 
 import type { CustomNextPage } from "next";
 
@@ -12,10 +10,12 @@ const Index: CustomNextPage = () => {
   );
 };
 
-Index.getLayout = (page) => (
-  <MainLayout>
-    <RecoilRoot>{page}</RecoilRoot>
-  </MainLayout>
-);
+Index.getLayout = MainLayout;
+
+// Index.getLayout = (page) => (
+//   <MainLayout>
+//     <RecoilRoot>{page}</RecoilRoot>
+//   </MainLayout>
+// );
 
 export default Index;
