@@ -4,7 +4,7 @@ import { MantineProvider } from "@mantine/core";
 
 import "../styles/globals.css";
 
-if (process.env.NEXT_PUBLIC_API_MOCKING === "enabled") {
+if (process.env.NODE_ENV === "development") {
   require("@/tests/mocks");
 }
 
