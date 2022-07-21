@@ -4,14 +4,18 @@ import { MainLayout } from "@/components/layouts/MainLayout";
 
 import type { CustomNextPage } from "next";
 
-const Home: CustomNextPage = () => {
-  return <div>HOME</div>;
+const Index: CustomNextPage = () => {
+  return (
+    <div>
+      <h2>Index</h2>
+    </div>
+  );
 };
 
-Home.getLayout = (page) => (
+Index.getLayout = (page) => (
   <MainLayout>
     <RecoilRoot>{page}</RecoilRoot>
   </MainLayout>
 );
 
-export default Home;
+export default Index;
