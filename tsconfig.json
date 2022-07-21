@@ -26,22 +26,7 @@
       }
     ]
   },
-  "exclude": [
-    "node_modules",
-    ".next",
-    "out",
-    "**/__tests__/*.test.ts",
-    "**/__tests__/*.test.tsx"
-  ],
+  "exclude": ["node_modules", ".next", "out"],
 
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.jsx",
-    "./.eslintrc.js"
-    // "./jest.config.ts",
-    // "tsconfig.eslint.json"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
 }

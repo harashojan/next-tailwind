@@ -14,7 +14,8 @@
     "fix:lint": "next lint --fix",
     "fix:prettier": "prettier --write .",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "prepare": "husky install"
   },
   "postcss": {
     "plugins": {
